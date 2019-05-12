@@ -48,7 +48,35 @@ ConcreteStrategy 具体实现
 2.所有的策略类对外暴露(违法LKP)
 
 装饰者模式
-1.
+com.design.pattern.decoration
+1.ConcreteComponent具体构件
+2.Decorator 装饰角色
+3.ConcreteDecorator 具体的装饰类
+
+优点：
+1.装饰类和被装饰类可以独立发展，不会相互耦合。
+2.继承的一种替换方式
+3.动态的拓展实现类的功能
+
+缺点：
+1.多层装饰类比较复杂，调试比较困难
+
+
+模版方法模式
+com.design.pattern.templateMethod
+模版方法由多个基本方法组成的
+优点：
+1.封装不变部门，拓展可变部分
+2.提取公共部门代码，便于维护
+3.行为由父类控制，子类实现
+
+缺点：
+代码阅读困难
+
+
+
+
+
 
 
 
